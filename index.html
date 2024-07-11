@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.see-now-btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #f5f5f5;
+}
+
+.banner-content {
+    max-width: 50%;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.Art-Banner{
+    width: 500px;
+    margin-right: -50px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.btn.live-demo {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.main-projects {
+    padding: 50px;
+    background: #fff;
+}
+
+.heading-and-p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.project {
+    flex: 1;
+    text-align: center;
+}
+
+.project img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">A&E News</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Content</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Prices</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="see-now-btn">See Now</a>
+        </div>
+    </header>
+    <section class="main-banner">
+        <div class="banner-content">
+            <p>DECSCRIPTION BY POWER</p>
+            <h1>Artworks &</h1>
+            <h1>Exhibitions News</h1>
+            <p>For the benefit of the mind will come to pass</p>
+            <div class="buttons">
+                <a href="#" class="btn">Buy Now $25</a>
+                <a href="#" class="btn live-demo">Live Demo</a>
+            </div>
+        </div>
+        <img src="project1.jpg" alt="Art Banner" class="Art-Banner">
+    </section>
+    <section class="main-projects">
+        <p>Works</p>
+        <div class="heading-and-p">
+            <h1>Our Main Projects</h1>
+            <p>For the benefit of the mind will come to pass</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project">
+                <img src="project6.jfif" alt="Project 1">
+                <h3>wall Showcase</h3>
+            </div>
+            <div class="project">
+                <img src="project3.jfif" alt="Project 2">
+                <h3>Living Room</h3>
+            </div>
+            <div class="project">
+                <img src="project4.jfif" alt="Project 3">
+                <h3>Plant Showcase</h3>
+            </div>
+        </div>
+    </section><section class="main-projects">
+        <div class="projects-grid">
+            <div class="project">
+                <img src="project5.jfif" alt="Project 1">
+                <h3>Small living Room</h3>
+            </div>
+            <div class="project">
+                <img src="project2.jfif" alt="Project 2">
+                <h3>Latest Wall Showcase</h3>
+            </div>
+            <div class="project">
+                <img src="project7.jfif" alt="Project 3">
+                <h3>Luxury Wall Showcase</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
